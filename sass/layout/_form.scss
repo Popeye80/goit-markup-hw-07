@@ -42,24 +42,6 @@
 	transition: fill var(--transition-time) var(--transition-function);
 } 
 
-// .form-input:focus + .form-icon{
-// 	fill: var(--back-ground-color);
-	
-// }
-
-// .form-input:focus {
-// 	border-color: var(--back-ground-color);
-// }
-
-// .textarea::placeholder {
-// 	font-weight: 400;
-// 	font-size: 12px;
-// 	line-height: 1.16;
-// 	letter-spacing: 0.01em;
-// 	color: rgba(117, 117, 117, 0.5);
-// }
-
-
 .textarea {
 	border: 1px solid rgba(33, 33, 33, 0.2);
 	box-sizing: border-box;
@@ -81,10 +63,7 @@
         border-color: var(--back-ground-color);
     }
 }
-// .textarea:hover,
-// .textarea:focus {
-// 	border-color: var(--back-ground-color);
-// }
+
  .checkbox {
 	display: flex;
 	align-items: center;
@@ -126,24 +105,7 @@
 	align-items: center;
 	cursor: pointer;
 	margin-bottom: 30px;
-    
-	
-  }
- 
-  
-  
-//   .checkbox-label-input:checked + .checkbox-label-icon {
-// 	border-radius: 2px;
-// 	background-image: url(../images/icon-check.svg);
-// 	background-size: contain;
-// 	background-color: var(--back-ground-color);
-// 	fill: var(--back-ground-color);
-// 	display: flex;
-// 	align-items: center;
-// 	justify-content: center;
-// 	border-color: var(--back-ground-color);
-	
-//   }
+      }
   
   .checkbox-label-icon {
 	display: inline-block;

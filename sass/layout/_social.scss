@@ -11,22 +11,20 @@
 	height: 44px;
 	border-radius: 50%;
 	transition: background-color var(--transition-time) var(--transition-function);
+        &:hover,
+        &:focus {
+            background-color: var(--back-ground-color);
+            fill: var(--secondary-text-color);
+        }
 }
 .social-link-inversed {
 	background-color: rgba(255, 255, 255, 0.1);
 	fill: var(--secondary-text-color);
 	transition: background-color var(--transition-time) var(--transition-function);
-}
-
-.social-link-inversed:hover,
-.social-link-inversed:focus {
-	background-color: var(--back-ground-color);
-}
-
-.social-link:hover,
-.social-link:focus {
-	background-color: var(--back-ground-color);
-	fill: var(--secondary-text-color);
+        &:hover,
+        &:focus {
+            background-color: var(--back-ground-color);
+        }
 }
 
 .social-inversed {

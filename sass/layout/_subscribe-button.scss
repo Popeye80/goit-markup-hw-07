@@ -25,15 +25,14 @@
 	border-radius: 4px;
   	transition: border-color var(--transition-time)
 	  var(--transition-function);
+	  &:hover,
+	  &:focus {
+		border-color:  var(--back-ground-color);
+		outline: 0; 
+	  }
   }
   
-  .subscribe-input:hover,
-  .subscribe-input:focus {
-	border-color:  var(--back-ground-color);
-	outline: 0; 
-  }
-  
-  .subscribe-btn {
+    .subscribe-btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -42,8 +41,6 @@
   .subscribe-icon {
 	margin-left: 10px;
   }
-
-  
 
 .subscribe-button {
 	display: block;
@@ -60,9 +57,9 @@
 	color: var(--secondary-text-color);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	transition: background-color var(--transition-time) var(--transition-function);
+	&:hover,
+	&:focus {
+		background-color: var(--button-submit-color);
+	}
 }
 
-.subscribe-button:hover,
-.subscribe-button:focus {
-	background-color: var(--button-submit-color);
-}
