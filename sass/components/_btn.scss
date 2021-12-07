@@ -1,0 +1,13 @@
+.hero-button,
+.filter-button,
+.backdrop-btn-close,
+.submit-button,
+.subscribe-button {
+	margin: 0 auto;
+	text-align: center;
+	border-radius: 4px;
+	border: 0;
+	background-color: var(--back-ground-color);
+	color: var(--secondary-text-color);
+	cursor: pointer;
+}

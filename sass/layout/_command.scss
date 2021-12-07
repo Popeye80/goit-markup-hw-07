@@ -1,0 +1,46 @@
+.commands {
+	background-color: var(--command-fon);
+}
+.command-img {
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+		0px 2px 1px rgba(0, 0, 0, 0.2);
+	border-radius: 0px 0px 4px 4px;
+	background-color: var(--secondary-text-color);
+}
+.command,
+.clients {
+	margin-bottom: 50px;
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+.command-name-title {
+	margin-top: 0;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+}
+.command-name-text {
+	margin-top: 0;
+	margin-bottom: 16px;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: var(--light-text-color);
+}
+.command-selector {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.command-img:not(:last-child)
+
+ {
+	margin-right: 30px;
+}

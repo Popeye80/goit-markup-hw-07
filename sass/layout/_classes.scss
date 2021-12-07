@@ -1,0 +1,43 @@
+.classes {
+	margin-bottom: 50px;
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-align: center;
+}
+
+.classes-tumb {
+	position: relative;
+	display: flex;
+}
+.classes-tumb::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+	background: var(--classes-background);
+}
+.classes-label {
+	position: absolute;
+	left: 50%;
+	bottom: 27px;
+	width: 100%;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+	transform: translate(-50%, 0);
+	text-transform: uppercase;
+}
+
+.classes-img:not(:last-child)
+ {
+	margin-right: 30px;
+}

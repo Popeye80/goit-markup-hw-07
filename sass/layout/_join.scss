@@ -1,0 +1,26 @@
+.address {
+	display: flex;
+	align-items: baseline;
+}
+
+
+.subscribe-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+	font-style: normal;
+	margin-bottom: 20px;
+}
+.join-title {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 16px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--secondary-text-color);
+	font-style: normal;
+	margin-bottom: 20px;
+}

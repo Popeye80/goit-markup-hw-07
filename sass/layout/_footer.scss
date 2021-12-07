@@ -1,0 +1,32 @@
+.footer {
+	background-color: var(--hero-color);
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+.footer-nav-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.footer-nav-link {
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: var(--secondary-text-color);
+}
+.footer-nav {
+	font-style: normal;
+	margin-top: 20px;
+}
+.footer-address:not(:last-child) {
+	margin-right: 70px;
+}
+.footer-nav-links {
+	font-size: 14px;
+	line-height: 1.7;
+	letter-spacing: 0.03em;
+	color: var(--footer-background-color);
+}
+.footer-main {
+	display: flex;
+	align-items: baseline;
+}
