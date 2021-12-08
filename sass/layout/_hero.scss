@@ -9,14 +9,10 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: $hero-color;
-	background-image: linear-gradient(
-			to right,
-			$hero-gradient,
-			$hero-gradient
-		),
+	background-image: linear-gradient(to right, $hero-gradient, $hero-gradient),
 		url(../images/hero.jpg);
 }
-.hero-title {
+.hero__title {
 	font-weight: 900;
 	font-size: 44px;
 	margin-left: auto;
@@ -40,8 +36,8 @@
 	color: $secondary-text-color;
 	box-shadow: $hero-button-shadow;
 	transition: background-color $transition-time $transition-function;
-        &:hover,
-        &:focus {
-            background-color: $button-submit-color;
-        }
+	&:hover,
+	&:focus {
+		background-color: $button-submit-color;
+	}
 }

@@ -2,46 +2,45 @@
 	display: flex;
 	align-items: flex-end;
 	margin-left: auto;
-  	
-  } 
-  
-  .subscribe-email {
+}
+
+.subscribe__email {
 	display: flex;
 	flex-direction: column;
 	margin-right: 12px;
-  }
-  
-  .subscribe-input {
+}
+
+.subscribe__input {
 	min-width: 358px;
 	height: 50px;
 	padding-left: 16px;
-  	font-size: 16px;
+	font-size: 16px;
 	line-height: 1.25;
 	letter-spacing: 0.03em;
 	color: $footer-background-color;
-  	background-color: var(--hero-color);
+	background-color: var(--hero-color);
 	border: 1px solid $subscribe-border;
 	box-shadow: $hero-button-shadow;
 	border-radius: 4px;
-  	transition: border-color $transition-time $transition-function;
-	  &:hover,
-	  &:focus {
-		border-color:  $back-ground-color;
-		outline: 0; 
-	  }
-  }
-  
-    .subscribe-btn {
+	transition: border-color $transition-time $transition-function;
+	&:hover,
+	&:focus {
+		border-color: $back-ground-color;
+		outline: 0;
+	}
+}
+
+.subscribe__btn {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-  }
-  
-  	.subscribe-icon {
-	margin-left: 10px;
-  }
+}
 
-	.subscribe__button {
+.subscribe__icon {
+	margin-left: 10px;
+}
+
+.subscribe__button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -61,4 +60,3 @@
 		background-color: $button-submit-color;
 	}
 }
-
