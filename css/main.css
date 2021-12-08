@@ -1,21 +1,3 @@
-:root {
-  --primary-text-color: #212121;
-  --back-ground-color: #2196f3;
-  --secondary-text-color: #ffffff;
-  --hero-color: #2f303a;
-  --light-text-color: #757575;
-  --border-line-color: #ececec;
-  --footer-background-color: rgba(255, 255, 255, 0.6);
-  --command-fon: #f5f4fa;
-  --button-submit-color: #188ce8;
-  --works-bg-color: #eeeeee;
-  --icon-border-color: #afb1b8;
-  --classes-background: rgba(47, 48, 58, 0.8);
-  --works-bgc: rgba(33, 150, 243, 0.9);
-  --transition-time: 1000ms;
-  --transition-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 h1,
 h2,
 h3,
@@ -47,8 +29,8 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
-  color: var(--primary-text-color);
-  background-color: var(--secondary-text-color);
+  color: #212121;
+  background-color: #ffffff;
 }
 
 a {
@@ -80,8 +62,8 @@ a {
   text-align: center;
   border-radius: 4px;
   border: 0;
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -106,16 +88,16 @@ a {
   font-size: 26px;
   line-height: 1.2;
   letter-spacing: 0.03em;
-  color: var(--back-ground-color);
+  color: #2196f3;
   font-style: normal;
 }
 
-.logo-first {
-  color: var(--primary-text-color);
+.logo__header {
+  color: #212121;
 }
 
-.logo-second {
-  color: var(--secondary-text-color);
+.logo__footer {
+  color: #ffffff;
 }
 
 .address {
@@ -130,7 +112,7 @@ a {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
+  color: #ffffff;
   font-style: normal;
   margin-bottom: 20px;
 }
@@ -142,41 +124,41 @@ a {
 
 .filter__item:not(:last-child) {
   margin-right: 8px;
-  background-color: var(--command-fon);
+  background-color: #f5f4fa;
 }
 
 .filter__button {
   text-align: center;
   min-width: 73px;
-  background-color: var(--command-fon);
+  background-color: #f5f4fa;
   padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #212121;
   text-transform: none;
   cursor: pointer;
   border: none;
-  transition: box-shadow var(--transition-time) var(--transition-function), color var(--transition-time) var(--transition-function), background-color var(--transition-time) var(--transition-function);
+  transition: box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1), color 1000ms cubic-bezier(0.4, 0, 0.2, 1), background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter__button:hover, .filter__button:focus {
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .filter__button--current {
   border-radius: 4px;
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .header {
-  background-color: var(--secondary-text-color);
-  border-bottom: 2px solid var(--border-line-color);
+  background-color: #ffffff;
+  border-bottom: 2px solid #ececec;
 }
 
 .header-contacts {
@@ -196,7 +178,7 @@ a {
   display: flex;
   align-items: center;
   padding: 32px 0px;
-  transition: color var(--transition-time) var(--transition-function);
+  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-link {
@@ -207,8 +189,8 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-  transition: color var(--transition-time) var(--transition-function);
+  color: #212121;
+  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .menu-item:not(:last-child) {
@@ -224,12 +206,12 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--light-text-color);
-  transition: color var(--transition-time) var(--transition-function);
+  color: #757575;
+  transition: color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-link:hover, .contacts-link:focus {
-  color: var(--back-ground-color);
+  color: #2196f3;
 }
 
 .menu-link {
@@ -237,7 +219,7 @@ a {
 }
 
 .menu-link.current {
-  color: var(--back-ground-color);
+  color: #2196f3;
 }
 
 .menu-link.current::after {
@@ -248,7 +230,7 @@ a {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--back-ground-color);
+  background-color: #2196f3;
 }
 
 .menu-link::after {
@@ -257,7 +239,7 @@ a {
 }
 
 .menu-link:hover, .menu-link:focus {
-  color: var(--back-ground-color);
+  color: #2196f3;
 }
 
 .hero {
@@ -270,7 +252,7 @@ a {
   margin-right: auto;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: var(--hero-color);
+  background-color: #2f303a;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
 }
 
@@ -281,7 +263,7 @@ a {
   margin-right: auto;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
+  color: #ffffff;
   margin-bottom: 30px;
 }
 
@@ -295,14 +277,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color var(--transition-time) var(--transition-function);
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero__button:hover, .hero__button:focus {
-  background-color: var(--button-submit-color);
+  background-color: #188ce8;
 }
 
 .benefits-title {
@@ -310,7 +292,7 @@ a {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: #212121;
   text-transform: uppercase;
 }
 
@@ -320,7 +302,7 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--light-text-color);
+  color: #757575;
 }
 
 .benefits-image {
@@ -329,7 +311,7 @@ a {
   align-items: center;
   margin-bottom: 30px;
   height: 120px;
-  background-color: var(--command-fon);
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 
@@ -360,7 +342,7 @@ a {
   bottom: 0;
   width: 100%;
   height: 70px;
-  background: var(--classes-background);
+  background: rgba(47, 48, 58, 0.8);
 }
 
 .classes-label {
@@ -373,7 +355,7 @@ a {
   line-height: 1.14;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: #ffffff;
   transform: translate(-50%, 0);
   text-transform: uppercase;
 }
@@ -383,13 +365,13 @@ a {
 }
 
 .commands {
-  background-color: var(--command-fon);
+  background-color: #f5f4fa;
 }
 
 .command-img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  background-color: var(--secondary-text-color);
+  background-color: #ffffff;
 }
 
 .command {
@@ -419,7 +401,7 @@ a {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--light-text-color);
+  color: #757575;
 }
 
 .command-selector {
@@ -443,7 +425,7 @@ a {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--primary-text-color);
+  color: #212121;
 }
 
 .works-text {
@@ -452,14 +434,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--light-text-color);
+  color: #757575;
 }
 
 .works-label {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: #ffffff;
 }
 
 .works-overlay {
@@ -471,8 +453,8 @@ a {
   transform: translateY(100%);
   visibility: hidden;
   padding: 63px 24px;
-  background-color: var(--works-bgc);
-  transition: transform var(--transition-time) var(--transition-function), visibility var(--transition-time) var(--transition-function);
+  background-color: rgba(33, 150, 243, 0.9);
+  transition: transform 1000ms cubic-bezier(0.4, 0, 0.2, 1), visibility 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-link:hover .works-overlay,
@@ -504,7 +486,7 @@ a {
   width: 100%;
   height: 100%;
   border-radius: 0px 0px 4px 4px;
-  transition: box-shadow var(--transition-time) var(--transition-function);
+  transition: box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .works-link:hover, .works-link:focus {
@@ -527,32 +509,32 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  fill: var(--secondary-text-color);
+  fill: #ffffff;
   background-color: rgba(255, 255, 255, 0.1);
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  transition: background-color var(--transition-time) var(--transition-function);
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover, .social-link:focus {
-  background-color: var(--back-ground-color);
-  fill: var(--secondary-text-color);
+  background-color: #2196f3;
+  fill: #ffffff;
 }
 
 .social-link-inversed {
   background-color: rgba(255, 255, 255, 0.1);
-  fill: var(--secondary-text-color);
-  transition: background-color var(--transition-time) var(--transition-function);
+  fill: #ffffff;
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link-inversed:hover, .social-link-inversed:focus {
-  background-color: var(--back-ground-color);
+  background-color: #2196f3;
 }
 
 .social-inversed {
   background-color: transparent;
-  fill: var(--icon-border-color);
+  fill: #afb1b8;
 }
 
 .social-item:not(:last-child) {
@@ -574,7 +556,7 @@ a {
 }
 
 .clients-item {
-  border: 1px solid var(--icon-border-color);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
@@ -589,30 +571,30 @@ a {
   height: 100%;
   box-sizing: border-box;
   cursor: pointer;
-  border: 1px solid var(--icon-border-color);
+  border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: var(--icon-border-color);
-  transition: border var(--transition-time) var(--transition-function);
+  fill: #afb1b8;
+  transition: border 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link:hover, .clients-link:focus {
-  border-color: var(--back-ground-color);
-  fill: var(--back-ground-color);
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
 .clients-link-icon {
   width: 106px;
   height: 60px;
-  transition: fill var(--transition-time) var(--transition-function);
+  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-link-icon:hover, .clients-link-icon:focus {
-  border-color: var(--back-ground-color);
-  fill: var(--back-ground-color);
+  border-color: #2196f3;
+  fill: #2196f3;
 }
 
 .footer {
-  background-color: var(--hero-color);
+  background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
 }
@@ -625,7 +607,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
+  color: #ffffff;
 }
 
 .footer-nav {
@@ -641,7 +623,7 @@ a {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
-  color: var(--footer-background-color);
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .footer-main {
@@ -673,11 +655,11 @@ a {
   border: 1px solid rgba(255, 255, 255, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  transition: border-color var(--transition-time) var(--transition-function);
+  transition: border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe-input:hover, .subscribe-input:focus {
-  border-color: var(--back-ground-color);
+  border-color: #2196f3;
   outline: 0;
 }
 
@@ -702,14 +684,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color var(--transition-time) var(--transition-function);
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .subscribe__button:hover, .subscribe__button:focus {
-  background-color: var(--button-submit-color);
+  background-color: #188ce8;
 }
 
 .submit__button {
@@ -723,14 +705,14 @@ a {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
-  background-color: var(--back-ground-color);
-  color: var(--secondary-text-color);
+  background-color: #2196f3;
+  color: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color var(--transition-time) var(--transition-function);
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .submit__button:hover, .submit__button:focus {
-  background-color: var(--button-submit-color);
+  background-color: #188ce8;
 }
 
 .backdrop {
@@ -741,7 +723,7 @@ a {
   top: 0;
   left: 0;
   background: rgba(0, 0, 0, 0.2);
-  transition: opacity var(--transition-time) var(--transition-function);
+  transition: opacity 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop.is-hidden {
@@ -761,12 +743,12 @@ a {
   border-radius: 50%;
   box-sizing: border-box;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-color: var(--secondary-text-color);
-  transition: fill var(--transition-time) var(--transition-function);
+  background-color: #ffffff;
+  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .backdrop__btnclose:hover, .backdrop__btnclose:focus {
-  fill: var(--back-ground-color);
+  fill: #2196f3;
 }
 
 .modal {
@@ -780,7 +762,7 @@ a {
   min-height: 581px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  background-color: var(--secondary-text-color);
+  background-color: #ffffff;
 }
 
 .modal-text {
@@ -804,7 +786,7 @@ a {
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
-  color: var(--light-text-color);
+  color: #757575;
 }
 
 .form-input {
@@ -817,16 +799,16 @@ a {
   position: relative;
   cursor: pointer;
   outline: none;
-  transition: border-color var(--transition-time) var(--transition-function);
-  transition: border-color var(--transition-time) var(--transition-function);
+  transition: border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-input:focus + .form-icon {
-  fill: var(--back-ground-color);
+  fill: #2196f3;
 }
 
 .form-input:focus {
-  border-color: var(--back-ground-color);
+  border-color: #2196f3;
 }
 
 .form-field label {
@@ -837,7 +819,7 @@ a {
   position: absolute;
   top: 30px;
   left: 15px;
-  transition: fill var(--transition-time) var(--transition-function);
+  transition: fill 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea {
@@ -848,7 +830,7 @@ a {
   resize: none;
   cursor: pointer;
   outline: none;
-  transition: border-color var(--transition-time) var(--transition-function);
+  transition: border-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea::placeholder {
@@ -860,7 +842,7 @@ a {
 }
 
 .textarea:hover, .textarea:focus {
-  border-color: var(--back-ground-color);
+  border-color: #2196f3;
 }
 
 .checkbox {
@@ -875,11 +857,11 @@ a {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--light-text-color);
+  color: #757575;
 }
 
 .checkbox-label-link {
-  color: var(--back-ground-color);
+  color: #2196f3;
   cursor: pointer;
   margin: 0;
   text-decoration: underline;
@@ -890,9 +872,9 @@ a {
   display: inline-block;
   width: 16px;
   height: 15px;
-  background-color: var(--secondary-text-color);
+  background-color: #ffffff;
   border-radius: 2px;
-  border: 2px solid var(--primary-text-color);
+  border: 2px solid #212121;
 }
 
 .checkbox-label {
@@ -908,23 +890,23 @@ a {
   width: 16px;
   height: 15px;
   margin-right: 7px;
-  transition: background-color var(--transition-time) var(--transition-function);
+  transition: background-color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .checkbox-label-input:checked + .checkbox-label-icon {
   border-radius: 2px;
   background-image: url(../images/icon-check.svg);
   background-size: contain;
-  background-color: var(--back-ground-color);
-  fill: var(--back-ground-color);
+  background-color: #2196f3;
+  fill: #2196f3;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-color: var(--back-ground-color);
+  border-color: #2196f3;
 }
 
 .checkbox-label-link {
-  color: var(--back-ground-color);
+  color: #2196f3;
   text-decoration: underline;
 }
 /*# sourceMappingURL=main.css.map */

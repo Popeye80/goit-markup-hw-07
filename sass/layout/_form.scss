@@ -8,26 +8,25 @@
 	font-size: 12px;
 	line-height: 1.16;
 	letter-spacing: 0.01em;
-	color: var(--light-text-color);
+	color: $light-text-color;
 }
 .form-input {
 	margin: 0;
 	padding: 12px 42px;
 	height: 40px;
-	border: 1px solid rgba(33, 33, 33, 0.2);
+	border: 1px solid $form-border-color;
 	box-sizing: border-box;
 	border-radius: 4px;
 	position: relative;
 	cursor: pointer;
 	outline: none;
-	transition: border-color var(--transition-time) var(--transition-function);
-	transition: border-color var(--transition-time) var(--transition-function);
+	transition: border-color $transition-time $transition-function;
+	transition: border-color $transition-time $transition-function;
         &:focus + .form-icon{
-            fill: var(--back-ground-color);
-            
-        }
+            fill: $back-ground-color;
+                  }
         &:focus {
-            border-color: var(--back-ground-color);
+            border-color: $back-ground-color;
         }
 } 
 
@@ -39,28 +38,28 @@
 	position: absolute;
 	top: 30px;
 	left: 15px;
-	transition: fill var(--transition-time) var(--transition-function);
+	transition: fill $transition-time $transition-function;
 } 
 
 .textarea {
-	border: 1px solid rgba(33, 33, 33, 0.2);
+	border: 1px solid $form-border-color;
 	box-sizing: border-box;
 	border-radius: 4px;
 	padding: 12px 16px;
 	resize: none;
 	cursor: pointer;
 	outline: none;
-	transition: border-color var(--transition-time) var(--transition-function);
+	transition: border-color $transition-time $transition-function;
     &::placeholder {
         font-weight: 400;
         font-size: 12px;
         line-height: 1.16;
         letter-spacing: 0.01em;
-        color: rgba(117, 117, 117, 0.5);
+        color: $textarea-color;
     }
         &:hover,
         &:focus {
-        border-color: var(--back-ground-color);
+        border-color: $back-ground-color;
     }
 }
 
@@ -76,12 +75,12 @@
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: var(--light-text-color);
+	color: $light-text-color;
 	
 	
 }
 .checkbox-label-link {
-	color: var(--back-ground-color);
+	color: $back-ground-color;
 	cursor: pointer;
 	margin: 0;
 	text-decoration: underline;
@@ -92,9 +91,9 @@
 	display: inline-block;
 	width: 16px;
 	height: 15px;
-	background-color: var(--secondary-text-color);
+	background-color: $secondary-text-color;
 	border-radius: 2px;
-	border: 2px solid var(--primary-text-color);
+	border: 2px solid $primary-text-color;
 	
 	
 }
@@ -112,22 +111,22 @@
 	width: 16px;
 	height: 15px;
 	margin-right: 7px;
-	transition: background-color var(--transition-time) var(--transition-function);
+	transition: background-color $transition-time $transition-function;
     .checkbox-label-input:checked + & {
         border-radius: 2px;
         background-image: url(../images/icon-check.svg);
         background-size: contain;
-        background-color: var(--back-ground-color);
-        fill: var(--back-ground-color);
+        background-color: $back-ground-color;
+        fill: $back-ground-color;
         display: flex;
         align-items: center;
         justify-content: center;
-        border-color: var(--back-ground-color);
+        border-color: $back-ground-color;
         
       }
   }
   
   .checkbox-label-link {
-	color: var(--back-ground-color);
+	color: $back-ground-color;
 	text-decoration: underline;
   }

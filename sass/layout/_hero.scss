@@ -8,11 +8,11 @@
 	margin-right: auto;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-color: var(--hero-color);
+	background-color: $hero-color;
 	background-image: linear-gradient(
 			to right,
-			rgba(47, 48, 58, 0.4),
-			rgba(47, 48, 58, 0.4)
+			$hero-gradient,
+			$hero-gradient
 		),
 		url(../images/hero.jpg);
 }
@@ -23,7 +23,7 @@
 	margin-right: auto;
 	line-height: 1.36;
 	letter-spacing: 0.06em;
-	color: var(--secondary-text-color);
+	color: $secondary-text-color;
 	margin-bottom: 30px;
 }
 .hero__button {
@@ -36,12 +36,12 @@
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
-	background-color: var(--back-ground-color);
-	color: var(--secondary-text-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	transition: background-color var(--transition-time) var(--transition-function);
+	background-color: $back-ground-color;
+	color: $secondary-text-color;
+	box-shadow: $hero-button-shadow;
+	transition: background-color $transition-time $transition-function;
         &:hover,
         &:focus {
-            background-color: var(--button-submit-color);
+            background-color: $button-submit-color;
         }
 }

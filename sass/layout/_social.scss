@@ -5,31 +5,31 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	fill: var(--secondary-text-color);
-	background-color: rgba(255, 255, 255, 0.1);
+	fill: $secondary-text-color;
+	background-color: $social-bgc;
 	width: 44px;
 	height: 44px;
 	border-radius: 50%;
-	transition: background-color var(--transition-time) var(--transition-function);
+	transition: background-color $transition-time $transition-function;
         &:hover,
         &:focus {
-            background-color: var(--back-ground-color);
-            fill: var(--secondary-text-color);
+            background-color: $back-ground-color;
+            fill: $secondary-text-color;
         }
 }
 .social-link-inversed {
-	background-color: rgba(255, 255, 255, 0.1);
-	fill: var(--secondary-text-color);
-	transition: background-color var(--transition-time) var(--transition-function);
+	background-color: $social-bgc;
+	fill: $secondary-text-color;
+	transition: background-color $transition-time $transition-function;
         &:hover,
         &:focus {
-            background-color: var(--back-ground-color);
+            background-color: $back-ground-color;
         }
 }
 
 .social-inversed {
 	background-color: transparent;
-	fill: var(--icon-border-color);
+	fill: $icon-border-color;
 }
 
 .social-item:not(:last-child) {

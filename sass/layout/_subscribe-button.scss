@@ -18,16 +18,15 @@
   	font-size: 16px;
 	line-height: 1.25;
 	letter-spacing: 0.03em;
-	color: rgba(255, 255, 255, 0.6);
+	color: $footer-background-color;
   	background-color: var(--hero-color);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border: 1px solid $subscribe-border;
+	box-shadow: $hero-button-shadow;
 	border-radius: 4px;
-  	transition: border-color var(--transition-time)
-	  var(--transition-function);
+  	transition: border-color $transition-time $transition-function;
 	  &:hover,
 	  &:focus {
-		border-color:  var(--back-ground-color);
+		border-color:  $back-ground-color;
 		outline: 0; 
 	  }
   }
@@ -53,13 +52,13 @@
 	font-size: 16px;
 	line-height: 1.87;
 	letter-spacing: 0.06em;
-	background-color: var(--back-ground-color);
-	color: var(--secondary-text-color);
-	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-	transition: background-color var(--transition-time) var(--transition-function);
+	background-color: $back-ground-color;
+	color: $secondary-text-color;
+	box-shadow: $submit-subscribe-button-shadow;
+	transition: background-color $transition-time $transition-function;
 	&:hover,
 	&:focus {
-		background-color: var(--button-submit-color);
+		background-color: $button-submit-color;
 	}
 }
 

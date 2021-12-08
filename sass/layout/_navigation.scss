@@ -6,8 +6,8 @@
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--primary-text-color);
-	transition: color var(--transition-time) var(--transition-function);
+	color: $primary-text-color;
+	transition: color $transition-time $transition-function;
 }
 
 .menu-item:not(:last-child) {
@@ -22,18 +22,18 @@
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--light-text-color);
-	transition: color var(--transition-time) var(--transition-function);
+	color: $light-text-color;
+	transition: color $transition-time $transition-function;
     &:hover,
     &:focus {
-        color: var(--back-ground-color);
+        color: $back-ground-color;
     }
 }
 
 .menu-link {
 	position: relative;
     &.current {
-        color: var(--back-ground-color);
+        color: $back-ground-color;
         &::after {
             content: "";
             display: block;
@@ -42,7 +42,7 @@
             position: absolute;
             left: 0;
             bottom: 0;
-            background-color: var(--back-ground-color);
+            background-color: $back-ground-color;
         }
     }
     &::after {
@@ -52,6 +52,6 @@
     &:hover,
     &:focus
     {
-        color: var(--back-ground-color);
+        color: $back-ground-color;
     }
 }

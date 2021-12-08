@@ -1,5 +1,5 @@
 .footer {
-	background-color: var(--hero-color);
+	background-color: $hero-color;
 	padding-bottom: 60px;
 	padding-top: 60px;
 }
@@ -11,7 +11,7 @@
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
-	color: var(--secondary-text-color);
+	color: $secondary-text-color;
 }
 .footer-nav {
 	font-style: normal;
@@ -24,7 +24,7 @@
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
-	color: var(--footer-background-color);
+	color: $footer-background-color;
 }
 .footer-main {
 	display: flex;
