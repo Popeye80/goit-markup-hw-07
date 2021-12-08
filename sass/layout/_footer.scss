@@ -3,30 +3,30 @@
 	padding-bottom: 60px;
 	padding-top: 60px;
 }
-.footer-nav-item:not(:last-child) {
+.footer__nav-item:not(:last-child) {
 	margin-bottom: 9px;
 }
 
-.footer-nav-link {
+.footer__nav-link {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: $secondary-text-color;
 }
-.footer-nav {
+.footer__nav {
 	font-style: normal;
 	margin-top: 20px;
 }
-.footer-address:not(:last-child) {
+.footer__address:not(:last-child) {
 	margin-right: 70px;
 }
-.footer-nav-links {
+.footer__nav-links {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: $footer-background-color;
 }
-.footer-main {
+.footer__main {
 	display: flex;
 	align-items: baseline;
 }

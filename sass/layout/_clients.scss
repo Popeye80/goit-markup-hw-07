@@ -1,5 +1,4 @@
-.clients-item:not(:last-child)
- {
+.clients__item:not(:last-child) {
 	margin-right: 30px;
 }
 
@@ -13,14 +12,14 @@
 	text-align: center;
 }
 
-.clients-item {
+.clients__item {
 	border: 1px solid $icon-border-color;
 	border-radius: 4px;
 	width: 170px;
 	height: 92px;
 	cursor: pointer;
 }
-.clients-link {
+.clients__link {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -32,22 +31,20 @@
 	border-radius: 4px;
 	fill: $icon-border-color;
 	transition: border $transition-time $transition-function;
-    &:hover,
-    &:focus {
-        border-color: $back-ground-color;
-        fill: $back-ground-color;
-    }
+	&:hover,
+	&:focus {
+		border-color: $back-ground-color;
+		fill: $back-ground-color;
+	}
 }
 
-.clients-link-icon {
+.clients__link-icon {
 	width: 106px;
 	height: 60px;
 	transition: fill $transition-time $transition-function;
-    &:hover,
-    &:focus
- {
-	border-color: $back-ground-color;
-	fill: $back-ground-color;
+	&:hover,
+	&:focus {
+		border-color: $back-ground-color;
+		fill: $back-ground-color;
+	}
 }
-}
-

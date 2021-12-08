@@ -1,7 +1,7 @@
 .commands {
 	background-color: $command-fon;
 }
-.command-img {
+.command__img {
 	box-shadow: $command-box-shadow;
 	border-radius: 0px 0px 4px 4px;
 	background-color: $secondary-text-color;
@@ -16,7 +16,7 @@
 	letter-spacing: 0.03em;
 	text-align: center;
 }
-.command-name-title {
+.command__title {
 	margin-top: 0;
 	text-align: center;
 	margin-bottom: 10px;
@@ -25,7 +25,7 @@
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 }
-.command-name-text {
+.command__text {
 	margin-top: 0;
 	margin-bottom: 16px;
 	text-align: center;
@@ -34,11 +34,11 @@
 	letter-spacing: 0.03em;
 	color: $light-text-color;
 }
-.command-selector {
+.command__selector {
 	padding-bottom: 30px;
 	padding-top: 30px;
 }
-.command-img:not(:last-child)
+.command__img:not(:last-child)
 
  {
 	margin-right: 30px;

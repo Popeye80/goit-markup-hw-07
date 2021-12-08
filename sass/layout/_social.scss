@@ -1,7 +1,7 @@
 .social {
 	justify-content: center;
 }
-.social-link {
+.social__link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -11,27 +11,27 @@
 	height: 44px;
 	border-radius: 50%;
 	transition: background-color $transition-time $transition-function;
-        &:hover,
-        &:focus {
-            background-color: $back-ground-color;
-            fill: $secondary-text-color;
-        }
+	&:hover,
+	&:focus {
+		background-color: $back-ground-color;
+		fill: $secondary-text-color;
+	}
 }
-.social-link-inversed {
+.social__link-inversed {
 	background-color: $social-bgc;
 	fill: $secondary-text-color;
 	transition: background-color $transition-time $transition-function;
-        &:hover,
-        &:focus {
-            background-color: $back-ground-color;
-        }
+	&:hover,
+	&:focus {
+		background-color: $back-ground-color;
+	}
 }
 
-.social-inversed {
+.social__inversed {
 	background-color: transparent;
 	fill: $icon-border-color;
 }
 
-.social-item:not(:last-child) {
+.social__item:not(:last-child) {
 	margin-right: 10px;
 }
