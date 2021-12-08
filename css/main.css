@@ -55,7 +55,7 @@ a {
   text-decoration: none;
 }
 
-.visually-hidden {
+.visually__hidden {
   margin-top: 0;
   position: absolute;
   clip: rect(1px, 1px, 1px, 1px);
@@ -71,11 +71,11 @@ a {
   padding-bottom: 94px;
 }
 
-.hero-button,
-.filter-button,
-.backdrop-btn-close,
-.submit-button,
-.subscribe-button {
+.hero__button,
+.filter__button,
+.backdrop__btnclose,
+.submit__button,
+.subscribe__button {
   margin: 0 auto;
   text-align: center;
   border-radius: 4px;
@@ -140,12 +140,12 @@ a {
   margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
   background-color: var(--command-fon);
 }
 
-.filter-button {
+.filter__button {
   text-align: center;
   min-width: 73px;
   background-color: var(--command-fon);
@@ -161,13 +161,14 @@ a {
   transition: box-shadow var(--transition-time) var(--transition-function), color var(--transition-time) var(--transition-function), background-color var(--transition-time) var(--transition-function);
 }
 
-.filter-button:hover, .filter-button:focus {
+.filter__button:hover, .filter__button:focus {
   background-color: var(--back-ground-color);
   color: var(--secondary-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.filter-button-current {
+.filter__button--current {
+  border-radius: 4px;
   background-color: var(--back-ground-color);
   color: var(--secondary-text-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -284,7 +285,7 @@ a {
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   padding: 10px 32px;
   min-width: 200px;
@@ -300,7 +301,7 @@ a {
   transition: background-color var(--transition-time) var(--transition-function);
 }
 
-.hero-button:hover, .hero-button:focus {
+.hero__button:hover, .hero__button:focus {
   background-color: var(--button-submit-color);
 }
 
@@ -690,7 +691,7 @@ a {
   margin-left: 10px;
 }
 
-.subscribe-button {
+.subscribe__button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -707,11 +708,11 @@ a {
   transition: background-color var(--transition-time) var(--transition-function);
 }
 
-.subscribe-button:hover, .subscribe-button:focus {
+.subscribe__button:hover, .subscribe__button:focus {
   background-color: var(--button-submit-color);
 }
 
-.submit-button {
+.submit__button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -728,7 +729,7 @@ a {
   transition: background-color var(--transition-time) var(--transition-function);
 }
 
-.submit-button:hover, .submit-button:focus {
+.submit__button:hover, .submit__button:focus {
   background-color: var(--button-submit-color);
 }
 
@@ -748,7 +749,7 @@ a {
   pointer-events: none;
 }
 
-.backdrop-btn-close {
+.backdrop__btnclose {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -764,7 +765,7 @@ a {
   transition: fill var(--transition-time) var(--transition-function);
 }
 
-.backdrop-btn-close:hover, .backdrop-btn-close:focus {
+.backdrop__btnclose:hover, .backdrop__btnclose:focus {
   fill: var(--back-ground-color);
 }
 
