@@ -686,7 +686,7 @@ a {
 }
 
 .subscribe__button {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   padding: 10px 32px;
