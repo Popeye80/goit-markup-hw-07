@@ -8,7 +8,7 @@
 	text-align: center;
 }
 
-.classes-tumb {
+.classes__tumb {
 	position: relative;
 	display: flex;
     &::before {
@@ -23,7 +23,7 @@
     }
 }
 
-.classes-label {
+.classes__label {
 	position: absolute;
 	left: 50%;
 	bottom: 27px;
@@ -38,7 +38,7 @@
 	text-transform: uppercase;
 }
 
-.classes-img:not(:last-child)
+.classes__img:not(:last-child)
  {
 	margin-right: 30px;
 }

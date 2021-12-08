@@ -1,9 +1,12 @@
+.header__contacts {
+	margin-left: auto;
+}
 .header {
 	background-color: $secondary-text-color;
 	border-bottom: 2px solid $border-line-color;
 }
 
-.header-contacts {
+.headercontacts {
 	margin-left: auto;
 }
 
@@ -11,11 +14,11 @@
 	margin-left: 93px;
 }
 
-.contacts-item .contacts-link-icon {
+.contacts__item .contacts__link-icon {
 	margin-right: 10px;
 	fill: currentColor;
 }
-.contacts-link {
+.contacts__link {
 	display: flex;
 	align-items: center;
 	padding: 32px 0px;
