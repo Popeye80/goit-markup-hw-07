@@ -40,25 +40,5 @@
 	margin-left: 10px;
 }
 
-.subscribe__button,
-.submit__button {
-	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 10px 32px;
-	border-radius: 4px;
-	text-align: center;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 1.87;
-	letter-spacing: 0.06em;
-	background-color: $back-ground-color;
-	color: $secondary-text-color;
-	box-shadow: $submit-subscribe-button-shadow;
-	transition: background-color $transition-time $transition-function;
-	&:hover,
-	&:focus {
-		background-color: $button-submit-color;
-	}
-}
+
 

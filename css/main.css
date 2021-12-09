@@ -66,6 +66,30 @@ a {
   cursor: pointer;
 }
 
+.submit__button,
+.subscribe__button {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 32px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  background-color: #2196f3;
+  color: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit__button:hover, .submit__button:focus,
+.subscribe__button:hover,
+.subscribe__button:focus {
+  background-color: #188ce8;
+}
+
 .main__nav,
 .menu__nav,
 .menu,
@@ -642,27 +666,6 @@ a {
   align-items: baseline;
 }
 
-.submit__button {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.submit__button:hover, .submit__button:focus {
-  background-color: #188ce8;
-}
-
 .subscribe {
   display: flex;
   align-items: flex-end;
@@ -703,30 +706,6 @@ a {
 
 .subscribe__icon {
   margin-left: 10px;
-}
-
-.subscribe__button,
-.submit__button {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px 32px;
-  border-radius: 4px;
-  text-align: center;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.87;
-  letter-spacing: 0.06em;
-  background-color: #2196f3;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.subscribe__button:hover, .subscribe__button:focus,
-.submit__button:hover,
-.submit__button:focus {
-  background-color: #188ce8;
 }
 
 .backdrop {
