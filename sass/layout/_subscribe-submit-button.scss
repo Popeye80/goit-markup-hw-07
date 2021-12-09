@@ -40,7 +40,8 @@
 	margin-left: 10px;
 }
 
-.subscribe__button {
+.subscribe__button,
+.submit__button {
 	display: flex;
 	margin-left: auto;
 	margin-right: auto;
@@ -60,3 +61,4 @@
 		background-color: $button-submit-color;
 	}
 }
+
