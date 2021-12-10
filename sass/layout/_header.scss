@@ -1,4 +1,8 @@
-.header__contacts {
+.container__header {
+	display: flex;
+	align-items: center;
+}
+.contacts {
 	margin-left: auto;
 }
 .header {

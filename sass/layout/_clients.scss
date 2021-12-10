@@ -1,16 +1,9 @@
-.clients__item:not(:last-child) {
-	margin-right: 30px;
+.clients {
+	display: flex;
+	align-items: center;
 }
 
-.clients {
-	margin-bottom: 50px;
-	margin-top: 0;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.16;
-	letter-spacing: 0.03em;
-	text-align: center;
-}
+
 
 .clients__item {
 	border: 1px solid $icon-border-color;
@@ -18,6 +11,9 @@
 	width: 170px;
 	height: 92px;
 	cursor: pointer;
+	&:not(:last-child) {
+		margin-right: 30px;
+	}
 }
 .clients__link {
 	display: flex;

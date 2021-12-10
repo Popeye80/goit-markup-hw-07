@@ -14,7 +14,7 @@
 	letter-spacing: 0.03em;
 	color: $light-text-color;
 }
-.benefits__image {
+.benefits__wrapper {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -27,4 +27,9 @@
 .benefits__item:not(:last-child)
  {
 	margin-right: 30px;
+}
+
+.benefits {
+	display: flex;
+	align-items: center;
 }

@@ -1,14 +1,6 @@
-.classes {
-	margin-bottom: 50px;
-	margin-top: 0;
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.16;
-	letter-spacing: 0.03em;
-	text-align: center;
-}
 
-.classes__tumb {
+
+.activity__tumb {
 	position: relative;
 	display: flex;
     &::before {
@@ -23,7 +15,7 @@
     }
 }
 
-.classes__label {
+.activity__label {
 	position: absolute;
 	left: 50%;
 	bottom: 27px;
@@ -38,7 +30,12 @@
 	text-transform: uppercase;
 }
 
-.classes__img:not(:last-child)
+.activity__item:not(:last-child)
  {
 	margin-right: 30px;
+}
+
+.activity {
+	display: flex;
+	align-items: center;
 }

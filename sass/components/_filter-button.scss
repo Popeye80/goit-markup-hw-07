@@ -1,5 +1,8 @@
+
 .filter {
 	justify-content: center;
+	display: flex;
+	align-items: center;
 	margin-bottom: 50px;
 }
 .filter__item:not(:last-child) {
@@ -28,11 +31,6 @@
 		color: $secondary-text-color;
 		box-shadow: $button-box-shadow;
 }
+	
 }
 
-.filter__button--current {
-	border-radius: 4px;
-	background-color: $back-ground-color;
-	color: $secondary-text-color;
-	box-shadow: $button-box-shadow
-}

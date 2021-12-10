@@ -1,6 +1,18 @@
 
 
-.contacts__link-icon {
+.menu,
+.contacts
+ {
+	display: flex;
+	align-items: center;
+}
+
+.navigation
+ {
+	display: flex;
+	align-items: center;
+}
+.contacts__icon {
 	margin-right: 10px;
 	fill: currentColor;
 }
@@ -44,7 +56,7 @@
 
 .menu__link {
 	position: relative;
-    &.current {
+    &--current {
         color: $back-ground-color;
         &::after {
             content: "";

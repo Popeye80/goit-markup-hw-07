@@ -26,14 +26,14 @@
 	<body>
 		<!-- Хэдер -->
 		<header class="header">
-			<div class="container main__nav">
-				<nav class="menu__nav">
+			<div class="container container__header">
+				<nav class="navigation">
 					<a class="logo animate__animated animate__flip" href=""
 						>Web<span class="logo__header">Studio</span>
 					</a>
 					<ul class="menu">
 						<li class="menu__item">
-							<a class="menu__link current" href="./index.html">Студия</a>
+							<a class="menu__link menu__link--current" href="./index.html">Студия</a>
 						</li>
 						<li class="menu__item">
 							<a class="menu__link" href="./portfolio.html">Портфолио</a>
@@ -43,11 +43,11 @@
 						</li>
 					</ul>
 				</nav>
-				<div class="header__contacts">
+				
 					<ul class="contacts">
 						<li class="contacts__item">
 							<a class="contacts__link" href="mailto:info@devstudio.com">
-								<svg class="contacts__link-icon" width="16" height="12">
+								<svg class="contacts__icon" width="16" height="12">
 									<use href="./images/icon.svg#icon-envelope"></use>
 								</svg>
 								info@devstudio.com
@@ -56,14 +56,14 @@
 
 						<li class="contacts__item">
 							<a class="contacts__link" href="tel:+380961111111">
-								<svg class="contacts__link-icon" width="10" height="16">
+								<svg class="contacts__icon" width="10" height="16">
 									<use href="./images/icon.svg#icon-smartphone"></use>
 								</svg>
 								+38 096 111 11 11</a
 							>
 						</li>
 					</ul>
-				</div>
+				
 			</div>
 		</header>
 
@@ -86,7 +86,7 @@
 					<h2 class="visually__hidden">Преимущества компании</h2>
 					<ul class="benefits">
 						<li class="benefits__item">
-							<div class="benefits__image">
+							<div class="benefits__wrapper">
 								<svg class="" width="70" height="70">
 									<use href="./images/icon.svg#icon-antenna"></use>
 								</svg>
@@ -98,7 +98,7 @@
 							</p>
 						</li>
 						<li class="benefits__item">
-							<div class="benefits__image">
+							<div class="benefits__wrapper">
 								<svg class="" width="70" height="70">
 									<use href="./images/icon.svg#icon-clock"></use>
 								</svg>
@@ -110,7 +110,7 @@
 							</p>
 						</li>
 						<li class="benefits__item">
-							<div class="benefits__image">
+							<div class="benefits__wrapper">
 								<svg class="" width="70" height="70">
 									<use href="./images/icon.svg#icon-diagram"></use>
 								</svg>
@@ -122,7 +122,7 @@
 							</p>
 						</li>
 						<li class="benefits__item">
-							<div class="benefits__image">
+							<div class="benefits__wrapper">
 								<svg class="" width="70" height="70">
 									<use href="./images/icon.svg#icon-astronaut"></use>
 								</svg>
@@ -139,50 +139,50 @@
 			<!-- Вид деятельности -->
 			<section class="section">
 				<div class="container">
-					<h2 class="classes">Чем мы занимаемся</h2>
-					<ul class="classes__item">
-						<li class="classes__img">
-							<div class="classes__tumb">
+					<h2 class="section__title">Чем мы занимаемся</h2>
+					<ul class="activity">
+						<li class="activity__item">
+							<div class="activity__tumb">
 								<img
 									src="./images/img1.jpg"
 									alt="Working with loops"
 									width="370"
 									height="294"
 								/>
-								<p class="classes__label">Десктопные приложения</p>
+								<p class="activity__label">Десктопные приложения</p>
 							</div>
 						</li>
-						<li class="classes__img">
-							<div class="classes__tumb">
+						<li class="activity__item">
+							<div class="activity__tumb">
 								<img
 									src="./images/img2.jpg"
 									alt="Working on mobile applications"
 									width="370"
 									height="294"
 								/>
-								<p class="classes__label">Мобильные приложения</p>
+								<p class="activity__label">Мобильные приложения</p>
 							</div>
 						</li>
-						<li class="classes__img">
-							<div class="classes__tumb">
+						<li class="activity__item">
+							<div class="activity__tumb">
 								<img
 									src="./images/img3.jpg"
 									alt="Working with color picking"
 									width="370"
 									height="294"
 								/>
-								<p class="classes__label">Дизайнерские решения</p>
+								<p class="activity__label">Дизайнерские решения</p>
 							</div>
 						</li>
 					</ul>
 				</div>
 			</section>
 			<!-- Команда -->
-			<section class="section commands">
+			<section class="section section--otherbackground">
 				<div class="container">
-					<h2 class="command">Наша команда</h2>
-					<ul class="command__name">
-						<li class="command__img">
+					<h2 class="section__title">Наша команда</h2>
+					<ul class="command">
+						<li class="command__item">
 							<img
 								src="./images/Igor.jpg"
 								alt="Igor"
@@ -194,28 +194,28 @@
 								<p class="command__text">Product Designer</p>
 								<ul class="social">
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#instagram">
+										<a class="social__link social__link--inversed" href="#instagram">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#twitter">
+										<a class="social__link social__link--inversed" href="#twitter">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#facebook">
+										<a class="social__link social__link--inversed" href="#facebook">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#in">
+										<a class="social__link social__link--inversed" href="#in">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-in"></use>
 											</svg>
@@ -225,7 +225,7 @@
 							</div>
 						</li>
 
-						<li class="command__img">
+						<li class="command__item">
 							<img
 								src="./images/Olga.jpg"
 								alt="Olga"
@@ -237,28 +237,28 @@
 								<p class="command__text">Frontend Developer</p>
 								<ul class="social">
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#instagram">
+										<a class="social__link social__link--inversed" href="#instagram">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#twitter">
+										<a class="social__link social__link--inversed" href="#twitter">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#facebook">
+										<a class="social__link social__link--inversed" href="#facebook">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#in">
+										<a class="social__link social__link--inversed" href="#in">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-in"></use>
 											</svg>
@@ -268,7 +268,7 @@
 							</div>
 						</li>
 
-						<li class="command__img">
+						<li class="command__item">
 							<img
 								src="./images/Nikolay.jpg"
 								alt="Nikolay"
@@ -281,28 +281,28 @@
 								<p></p>
 								<ul class="social">
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#instagram">
+										<a class="social__link social__link--inversed" href="#instagram">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#twitter">
+										<a class="social__link social__link--inversed" href="#twitter">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#facebook">
+										<a class="social__link social__link--inversed" href="#facebook">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#in">
+										<a class="social__link social__link--inversed" href="#in">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-in"></use>
 											</svg>
@@ -312,7 +312,7 @@
 							</div>
 						</li>
 
-						<li class="command__img">
+						<li class="command__item">
 							<img
 								src="./images/Michail.jpg"
 								alt="Michail"
@@ -324,28 +324,28 @@
 								<p class="command__text">UI Designer</p>
 								<ul class="social">
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#instagram">
+										<a class="social__link social__link--inversed" href="#instagram">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-instagram"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#twitter">
+										<a class="social__link social__link--inversed" href="#twitter">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-twitter"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#facebook">
+										<a class="social__link social__link--inversed" href="#facebook">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-facebook"></use>
 											</svg>
 										</a>
 									</li>
 									<li class="social__item">
-										<a class="social__link social__inversed" href="#in">
+										<a class="social__link social__link--inversed" href="#in">
 											<svg class="social-icon" width="20" height="20">
 												<use href="./images/icon.svg#icon-in"></use>
 											</svg>
@@ -360,8 +360,8 @@
 			<!-- Клиенты -->
 			<section class="section">
 				<div class="container">
-					<h2 class="clients">Постоянные клиенты</h2>
-					<ul class="clients__permanent">
+					<h2 class="section__title">Постоянные клиенты</h2>
+					<ul class="clients">
 						<li class="clients__item">
 							<a class="clients__link" href="">
 								<svg class="clients__link-icon">
