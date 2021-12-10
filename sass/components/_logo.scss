@@ -1,9 +1,7 @@
 .logo {
+	@include font-source(26px, 700, 31px, 0.03em);
+
 	font-family: $logo-font;
-	font-weight: 700;
-	font-size: 26px;
-	line-height: 1.2;
-	letter-spacing: 0.03em;
 	color: $back-ground-color;
 	font-style: normal;
 }

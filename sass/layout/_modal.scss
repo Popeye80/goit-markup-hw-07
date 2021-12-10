@@ -46,11 +46,9 @@
 	background-color: $secondary-text-color;
 }
 .modal__text {
+	@include font-source(20px, 700, 23px, 0.03em);
+
 	text-align: center;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 1.15;
 	text-align: center;
-	letter-spacing: 0.03em;
 	margin-bottom: 12px;
 }

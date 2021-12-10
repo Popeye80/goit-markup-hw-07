@@ -1,5 +1,3 @@
-
-
 .menu,
 .contacts
  {
@@ -23,13 +21,11 @@
 	transition: color $transition-time $transition-function;
 }
 .menu__link {
+	@include font-source(14px, 500, 16px, 0.02em);
+
 	display: block;
 	padding-top: 32px;
 	padding-bottom: 32px;
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.02em;
 	color: $primary-text-color;
 	transition: color $transition-time $transition-function;
 }
@@ -42,10 +38,8 @@
 	margin-right: 30px;
 }
 .contacts__link {
-	font-weight: 500;
-	font-size: 14px;
-	line-height: 1.14;
-   	letter-spacing: 0.02em;
+	@include font-source(14px, 500, 16px, 0.02em);
+
 	color: $light-text-color;
 	transition: color $transition-time $transition-function;
     &:hover,

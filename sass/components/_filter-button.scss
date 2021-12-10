@@ -10,14 +10,12 @@
 	background-color: $command-fon;
 }
 .filter__button {
+	@include font-source(16px, 500, 26px, 0.03em );
+	
 	text-align: center;
 	min-width: 73px;
 	background-color: $command-fon;
 	padding: 6px 22px;
-	font-weight: 500;
-	font-size: 16px;
-	line-height: 1.63;
-	letter-spacing: 0.03em;
 	color: $primary-text-color;
 	text-transform: none;
 	cursor: pointer;

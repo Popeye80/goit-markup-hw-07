@@ -3,30 +3,30 @@
 	padding-bottom: 60px;
 	padding-top: 60px;
 }
-.footer__nav-item:not(:last-child) {
-	margin-bottom: 9px;
-}
-
-.footer__nav-link {
-	font-size: 14px;
-	line-height: 1.7;
-	letter-spacing: 0.03em;
-	color: $secondary-text-color;
-}
 .footer__nav {
 	font-style: normal;
 	margin-top: 20px;
-}
-.footer__address:not(:last-child) {
-	margin-right: 70px;
-}
-.footer__nav-links {
-	font-size: 14px;
-	line-height: 1.7;
-	letter-spacing: 0.03em;
-	color: $footer-background-color;
 }
 .footer__main {
 	display: flex;
 	align-items: baseline;
 }
+.footer__nav-item:not(:last-child) {
+	margin-bottom: 9px;
+}
+
+.footer__nav-links--inversed {
+	@include font-source(14px, 400, 24px, 0.03em);
+
+	color: $secondary-text-color;
+}
+
+.footer__address:not(:last-child) {
+	margin-right: 70px;
+}
+.footer__nav-links {
+	@include font-source(14px, 400, 24px, 0.03em);
+
+	color: $footer-background-color;
+}
+

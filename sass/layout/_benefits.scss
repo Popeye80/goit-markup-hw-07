@@ -1,17 +1,19 @@
+.benefits {
+	display: flex;
+	align-items: center;
+}
+
 .benefits__title {
-	font-weight: 700;
-	font-size: 14px;
-	line-height: 1.14;
-	letter-spacing: 0.03em;
+	@include font-source(14px, 700, 16px, 0.03em);
+
 	color: $primary-text-color;
 	text-transform: uppercase;
 }
 .benefits__text {
+	@include font-source(14px, 400, 24px, 0.03em);
+
 	margin-top: 10px;
 	margin-bottom: 0;
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: $light-text-color;
 }
 .benefits__wrapper {
@@ -29,7 +31,3 @@
 	margin-right: 30px;
 }
 
-.benefits {
-	display: flex;
-	align-items: center;
-}

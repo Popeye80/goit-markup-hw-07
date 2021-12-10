@@ -5,9 +5,11 @@
 	margin-bottom: 10px;
 }
 .form__label {
-	font-size: 12px;
-	line-height: 1.16;
-	letter-spacing: 0.01em;
+	@include font-source(12px, 400, 14px, 0.01em);
+
+	// font-size: 12px;
+	// line-height: 1.16;
+	// letter-spacing: 0.01em;
 	color: $light-text-color;
 }
 .form__input {
@@ -71,10 +73,9 @@
 }
 
 .checkbox__label-text {
+	@include font-source(14px, 400, 24px, 0.03em);
+
 	margin: 0;
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
 	color: $light-text-color;
 }
 .checkbox__label-link {

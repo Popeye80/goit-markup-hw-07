@@ -13,12 +13,10 @@
 		url(../images/hero.jpg);
 }
 .hero__title {
-	font-weight: 900;
-	font-size: 44px;
+	@include font-source(44px, 900, 60px, 0.06em);
+	
 	margin-left: auto;
 	margin-right: auto;
-	line-height: 1.36;
-	letter-spacing: 0.06em;
 	color: $secondary-text-color;
 	margin-bottom: 30px;
 }

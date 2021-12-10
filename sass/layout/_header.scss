@@ -1,13 +1,16 @@
+
+.header {
+	background-color: $secondary-text-color;
+	border-bottom: 2px solid $border-line-color;
+}
+
 .container__header {
 	display: flex;
 	align-items: center;
 }
+
 .contacts {
 	margin-left: auto;
-}
-.header {
-	background-color: $secondary-text-color;
-	border-bottom: 2px solid $border-line-color;
 }
 
 .menu {
@@ -18,6 +21,7 @@
 	margin-right: 10px;
 	fill: currentColor;
 }
+
 .contacts__link {
 	display: flex;
 	align-items: center;
