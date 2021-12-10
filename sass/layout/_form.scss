@@ -7,11 +7,9 @@
 .form__label {
 	@include font-source(12px, 400, 14px, 0.01em);
 
-	// font-size: 12px;
-	// line-height: 1.16;
-	// letter-spacing: 0.01em;
 	color: $light-text-color;
 }
+
 .form__input {
 	margin: 0;
 	padding: 12px 42px;
